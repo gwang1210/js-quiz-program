@@ -2,7 +2,7 @@
 var correct = 0;
 
 // prompt
-var answer1 = prompt("what's heavier, a feather or a brick?...");
+var answer1 = prompt("what's heavier, a feather or a brick?");
 var answer2 = prompt("What color is a green house");
 var answer3 = prompt("if I had 2 apples, how many apples do I have?");
 var answer4 = prompt("did Sally really sell seashells at the seashore?");
