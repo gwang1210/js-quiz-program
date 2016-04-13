@@ -40,12 +40,18 @@ document.write("<p>" + answer5 + "</p>");
 
 
 if ( correct === '5' ) {
-document.write("<p>CONGRATULATIONS. YOU GOT 5 RIGHT.</p>");
+document.write("<p>CONGRATULATIONS. YOU GOT ALL 5 RIGHT.</p>");
 }
 if ( correct === '4' ) {
-document.write("<p>CONGRATULATIONS. YOU GOT 4 RIGHT.</p>");
+document.write("<p>PRETTY GOOD. YOU GOT 4 RIGHT.</p>");
 }
-if ( correct === '5' ) {
-document.write("<p>CONGRATULATIONS. YOU GOT 5 RIGHT.</p>");
+if ( correct === '3' ) {
+document.write("<p>NOT BAD. YOU GOT 3 RIGHT.</p>");
+}
+if ( correct === '2' ) {
+document.write("<p>PRETTY NOT GOOD. YOU GOT 2 RIGHT.</p>");
+}
+if ( correct === '1' ) {
+document.write("<p>RETHINK YOUR LIFE. YOU ONLY GOT 1 RIGHT.</p>");
 }
 
