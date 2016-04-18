@@ -7,7 +7,7 @@ function question(quesText, realAns) {
  //what our function will do
  var answerInput = prompt(quesText);
  totalAsked += 1;
- if ( answerInput.toUpperCase() === 'realAns' ) {
+ if ( answerInput.toUpperCase() === realAns ) {
  correct += 1; 
  }
 }
