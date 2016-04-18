@@ -5,12 +5,13 @@ var totalAsked = 0;
 // ask questions
 function question(quesText, realAns) {
  //what our function will do
- var answerInput = prompt("quesText");
+ var answerInput = prompt(quesText);
  totalAsked += 1;
  if ( answerInput.toUpperCase() === 'realAns' ) {
  correct += 1; 
  }
 }
+
 question("Name a programming language that's also a gem", "RUBY");
 question("Name a programming language that's also a snake", "PYTHON");
 question("What language do you use to style web pages?", "CSS");
