@@ -41,7 +41,7 @@ question("What language do you use to add interactivity to a web page?", "JAVASC
 // }
 
 // output results
-document.write("<p>You got " + correct + " out of" + totalAsked + "questions correct.<p>");
+document.write("<p>You got " + correct + " out of " + totalAsked + " questions correct.<p>");
 
 // output rank
 if ( correct === 5 ) {
